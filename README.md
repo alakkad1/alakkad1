@@ -1,10 +1,8 @@
-- 👋 Hi, I’m @alakkad1g
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-alakkad1/alakkad1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
----
+public class NewClass {
+     public static void main(String[] args) {
+ JFrame jf = new JFrame("boss");
+        // jf.setBounds(0,0,600,900);//ابعاد النافذة 
+         jf.setVisible(true); //التنفيذ
+         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //للاغلاق
+         jf.setSize(500,500);//الابعاد
+         jf.setTitle("mohannad alakkad");
